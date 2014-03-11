@@ -9,7 +9,12 @@ NOTE: I made this on Ubuntu 13.04 and have not tested it on anything else.
 
 ## Installation
 
-Move Eighty40-master directory to your home folder and make it executable:
+Move Eighty40-master directory to your home folder, rename it, and make it 
+executable:
+
+IMPORTANT: make sure to type the first command exactly as shown. It will rename
+the folder .Eighty40 if you leave it as Eighty40-master the script won't work
+properly.
 
 	mv Eighty40-master/ ~/.Eighty40/
 	cd ~/.Eighty40/
@@ -30,7 +35,7 @@ yet do so now:
 
 You can replace the images that appear in the notify bubles with any .png images
 that are 140x140px. Just name them plugin.png & unplug.png then replace the 
-images that are currently in ~/.Eighty40-master/
+images that are currently in ~/.Eighty40/
 
 The script checks your battery status every 5min. To change this modify 
 Eighty40.sh change lines 23, 25, 33, and 35 from "sleep 5m" to "sleep (amount of
